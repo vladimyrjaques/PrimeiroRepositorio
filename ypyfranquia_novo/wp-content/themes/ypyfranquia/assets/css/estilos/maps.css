@@ -1,0 +1,84 @@
+div#localizacao {
+    display: flex;
+    padding: 15px 7rem;
+    background: #00509e;
+    color: #fff;
+    margin-top: 7rem;
+    justify-content: center;
+}
+
+
+div#img-mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.localizacao ,.contato, .contato-email span {
+    margin-left: 15px;
+    color: #212121e0;
+    font-size: 12pt;
+}
+
+.localizacao ,.contato, .contato-email {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.text {
+    margin-left: 1rem;
+}
+
+@media (max-width: 592px)  {
+    div#img-mapa img {
+        width: 101vw;
+        margin-top: 6vw;
+    }
+    div#img-mapa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#dados-localizacao {
+        background-color: #fbfbfb;
+        position: relative;
+        padding: 15px 23px;
+        width: 100%;
+        height: auto;
+    }
+    div#localizacao h3 {
+        font-size: 17pt;
+        text-align: center;
+    }
+
+}
+
+
+
+@media (min-width: 993px) {
+    div#dados-localizacao {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        background-color: #fff;
+        position: relative;
+        left: 5rem;
+        padding: 15px 23px;
+        bottom: 12rem;
+        width: 40vw;
+        height: 15vw;
+    }
+    div#localizacao h3 {
+        font-size: 35pt;
+        margin-left: 40vw;
+    }
+
+    section.maps {
+        margin-top: -4rem;
+        margin-bottom: -5rem;
+    }
+}
+

@@ -1,0 +1,412 @@
+.titile-financiamento {
+    text-transform:uppercase;
+    color:#055199;
+    text-align:center;
+}
+
+#iframe {
+    height: 35rem;
+}
+
+iframe {
+    width: 100%;
+    height: 27rem;
+}
+
+h3.title2 {
+    color: #055199;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+
+div#formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+}
+
+div#wpcf7-f68-o1 {
+    margin-top: 1rem;
+    border-radius: 25px;
+    padding: 2rem 3rem;
+    background: #055199;
+    box-shadow: 1px 1px 5px #000;
+    margin-bottom: 3rem;
+}
+
+.form-contato {
+    border: solid 1px #b5b5b5;
+    padding: 7px;
+    margin: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+form.wpcf7-form {
+    color: #06f9fd;
+}
+
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+    width: 14rem;
+    margin-left: 14px;
+    height: auto;
+    color: #495057;
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+    float: right;
+}
+
+.form-contato {
+    margin-left: 2rem;
+}
+
+
+section#section-financiamento2 {
+    margin-bottom: 5rem;
+    background: #fff;
+    height: auto;
+}
+
+label {
+    margin-left: 1.8rem;
+    /*color: #fff;*/
+    text-transform: uppercase;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    border: none;
+    background: none;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    color: #757575;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.container.mt-4 p {
+    color: #055199;
+    text-align: center;
+    padding: 9px;
+    font-size: 14pt;
+}
+
+
+@media (max-width: 992px) {
+    .form-contato {
+        border: solid 1px #b5b5b5;
+        padding: 7px;
+        margin: 8px;
+        border-radius: 5px;
+        text-align: center;
+        width: 70%;
+    }
+
+    select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+        width: 8rem;
+        margin-left: 14px;
+        height: auto;
+        color: #495057;
+        background-color: #fff;
+        padding: 6px;
+        border-radius: 5px;
+    }
+
+    label {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 12.5pt;
+    }
+}
+
+@media (min-width: 0px)  and (max-width: 592px) {
+    select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+        width: 8rem;
+        height: auto;
+        color: #495057;
+        background-color: #fff;
+        padding: 6px;
+        border-radius: 5px;
+        margin-right: 3rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    select#select-form {
+        width: 19.8rem;
+    }
+}
+
+/* JOAO ALTERAÇÕES */
+
+.fundo {
+    background-color: #e1f5fc00;
+    position: relative;
+}
+
+.back-ground {
+    background-image: url(http://ypyfranquia.versatecnologia.com.br/wp-content/uploads/2020/07/288712-P6NYJH-391.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(1.5px);
+}
+
+.fundo .container {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.fundo .row.shadow{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+
+body.customize-support.nimbus-is-editor {
+    background-color: #e1f5fc;
+}
+div#wpcf7-f68-o1 {
+    border-radius: 5px;
+    background: none !important;
+    box-shadow: unset !important;
+}
+label {
+    color: #2b55a2;
+}
+::-webkit-input-placeholder {
+       color: #5786b3;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+       color: #5786b3; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+       color: #5786b3; 
+}
+
+:-ms-input-placeholder {  
+       color: #5786b3;  
+}
+}
+::-webkit-select-placeholder {
+       color: #5786b3;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+       color: #5786b3; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+       color: #5786b3; 
+}
+
+:-ms-select-placeholder {  
+       color: #5786b3;  
+}
+h3.title2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+}
+.fundo p {
+    color: white;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    margin-left: auto;
+    margin-right: auto;
+}
+.fundo select, .fundo span, .fundo label, .fundo input{
+    width: 100% !important;
+}
+.fundo select, .fundo span, .fundo input{
+    height: 2.5vw;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    width: 19% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.select-form {
+    width: 100% !important;
+    height: 2.5vw !important;
+    border: solid 1px #b5b5b5;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+    border-radius: 5px;
+    text-align: center;
+}
+label {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+label {
+    margin-left: 0;
+}
+input.wpcf7-form-control.wpcf7-submit {
+    box-shadow: none !important;
+    margin-top: 3vw !important;
+    height: 2.5vw !important;
+    background-color: #a936448c !important;
+    color: white !important;
+    box-shadow: 0px 0px 0px 1px white !important;
+}
+input.wpcf7-form-control.wpcf7-date.wpcf7-validates-as-required.wpcf7-validates-as-date.form-contato {
+    color: #5786b3;
+}
+div#wpcf7-f68-o1 {
+    margin-bottom: 0;
+}
+.container-fluid {
+    width: 90%;
+}
+span.wpcf7-form-control-wrap.your-cel {
+    margin-top: 1.2vw;
+}
+input.wpcf7-form-control.wpcf7-date.wpcf7-validates-as-required.wpcf7-validates-as-date.form-contato {
+    margin-top: 0 !important;
+}
+p.data-text {
+    margin-bottom: 0;
+    margin-top: 1.2vw;
+}
+p.data-text {
+    margin-bottom: 0;
+    margin-top: 0.66vw;
+    font-size: 0.7vw;
+}
+@media(max-width: 1600px){
+    .container-fluid {
+        width: 80%;
+    }
+    .fundo .container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .fundo .row.shadow{
+        background-color: rgba(0,0,0,0.4);
+        border-radius: 5px;
+    }
+
+    body.customize-support.nimbus-is-editor {
+        background-color: #e1f5fc;
+    }
+    div#wpcf7-f68-o1 {
+        border-radius: 5px;
+        background: none !important;
+        box-shadow: unset !important;
+    }
+    h3.title2 {
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 3rem;
+    }
+    .fundo p {
+        color: white;
+    }
+    input.wpcf7-form-control.wpcf7-submit {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fundo select, .fundo span, .fundo label, .fundo input{
+        width: 100% !important;
+    }
+    .fundo select, .fundo span, .fundo input{
+        height: 2.5rem;
+    }
+    input.wpcf7-form-control.wpcf7-submit {
+        width: 19% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required.select-form {
+        width: 100% !important;
+        height: 2.5rem !important;
+        border: solid 1px #b5b5b5;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
+        margin-top: 8px !important;
+        margin-bottom: 8px !important;
+        border-radius: 5px;
+        text-align: center;
+    }
+    label {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    label {
+        margin-left: 0;
+    }
+    input.wpcf7-form-control.wpcf7-submit {
+        box-shadow: none !important;
+        margin-top: 3rem !important;
+        height: 2.5rem !important;
+        background-color: #a936448c !important;
+        color: white !important;
+        box-shadow: 0px 0px 0px 1px white !important;
+    }
+    input.wpcf7-form-control.wpcf7-date.wpcf7-validates-as-required.wpcf7-validates-as-date.form-contato {
+        color: #5786b3;
+    }
+    div#wpcf7-f68-o1 {
+        margin-bottom: 0;
+    }
+    span.wpcf7-form-control-wrap.your-cel {
+        margin-top: 1.2rem;
+    }
+    input.wpcf7-form-control.wpcf7-date.wpcf7-validates-as-required.wpcf7-validates-as-date.form-contato {
+        margin-top: 0 !important;
+    }
+    p.data-text {
+        margin-bottom: 0;
+        margin-top: 1.2rem;
+    }
+    p.data-text {
+        margin-bottom: 0;
+        margin-top: 0.66rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 1000px){
+    .container-fluid {
+        width: 90%;
+    }
+}
+
+@media(max-width: 800px){
+    input.wpcf7-form-control.wpcf7-submit {
+        width: 51% !important;
+    }
+}
+
+
+div#select {
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+

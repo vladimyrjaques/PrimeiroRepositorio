@@ -1,0 +1,64 @@
+.comment-form-comment label {
+    display: none;
+}
+
+
+.comment-form-author label {
+    display: none;
+}
+
+.comment-form-email label {
+    display: none;
+}
+
+.comment-form-url {
+    display: none;
+}
+
+.comment-form-cookies-consent {
+    display: none;
+}
+
+.form-submit input {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #a93644;
+    color: #fff;
+}
+/* #a93644 */
+/* #055199 */
+
+#author, #email {
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 15px;
+}
+
+#comment {
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.comment-awaiting-moderation {
+    font-size: 10pt;
+}
+
+.comment-meta.commentmetadata a {
+    font-size: 10pt;
+}
+
+#div-comment-2 p {
+    font-size: 11pt;
+}
+
+.comment-body {
+    padding: 6px 24px;
+    border-bottom: solid 1px #acacac;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,34 @@
+@media (max-width: 592px) {
+    .conteudo-img2 h4 {
+        font-size: 15pt;
+        text-transform: uppercase;
+        font-weight: bolder;
+        letter-spacing: 0.5px;
+    }
+
+    div#conteudo3-img p {
+        font-size: 11pt;
+    }
+
+    div#botao-img-pai {
+        margin: 0 auto;
+        height: 10vw;
+        width: 49vw;
+    }
+
+    div#conteudo1-img h4 {
+         margin-top: 0vw;
+    }
+    div#conteudo2-img {
+        margin-top: 0vw;
+    }
+    div#conteudo3-img {
+        margin-top: 0vw;
+    }
+
+    .conteudo-img2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+  }
+}

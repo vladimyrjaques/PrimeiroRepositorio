@@ -1,0 +1,23 @@
+.button, input[type="submit"] {
+    border: 1px solid #00a9d1;
+    background: transparent;
+    color: #fff !important;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    border-radius: 3px;
+    height: 60px !important;
+    line-height: 60px !important;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    display: inline-block;
+}
+
+.submit-btn.gd-bg-1 {
+    background-image: -moz-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%) !important;
+    background-image: -webkit-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%) !important;
+    background-image: -ms-linear-gradient(50deg, #5e2ced 0%, #9749f8 100%) !important;
+}

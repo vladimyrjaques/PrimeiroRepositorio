@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Progress Map\n"
+"POT-Creation-Date: 2016-03-24 22:11+0000\n"
+"PO-Revision-Date: 2016-03-06 23:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_html__;esc_attr_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: css\n"
+"X-Poedit-SearchPathExcluded-1: img\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: libs\n"
+"X-Poedit-SearchPathExcluded-4: settings\n"
+
+#: progress-map.php:372
+msgid "More"
+msgstr ""
+
+#: progress-map.php:670
+msgid "Enter City & Province, or Postal code"
+msgstr ""
+
+#: progress-map.php:671
+msgid "Expand the search area up to"
+msgstr ""
+
+#: progress-map.php:672
+msgid "We could not find any location"
+msgstr ""
+
+#: progress-map.php:673
+msgid "We could not understand the location"
+msgstr ""
+
+#: progress-map.php:674
+msgid "- Make sure all street and city names are spelled correctly."
+msgstr ""
+
+#: progress-map.php:675
+msgid "- Make sure your address includes a city and state."
+msgstr ""
+
+#: progress-map.php:676
+msgid "- Try entering a zip code."
+msgstr ""
+
+#: progress-map.php:677
+msgid "Find it"
+msgstr ""
+
+#: progress-map.php:775
+msgid "Progress map"
+msgstr ""
+
+#: progress-map.php:839
+msgid "Getting started"
+msgstr ""
+
+#: progress-map.php:840
+msgid "Documentation"
+msgstr ""
+
+#: progress-map.php:1163
+msgid "Give Maps permission to use your location!"
+msgstr ""
+
+#: progress-map.php:1164
+msgid ""
+"If you can't center the map on your location, a couple of things might be "
+"going on. It's possible you denied Google Maps access to your location in "
+"the past, or your browser might have an error."
+msgstr ""
+
+#: progress-map.php:1170
+msgid "Click to view all markers in this area"
+msgstr ""
+
+#: progress-map.php:1523
+msgid "PM. Coordinates"
+msgstr ""
+
+#: progress-map.php:1559 progress-map.php:1573
+msgid "Progress Map: Add Locations"
+msgstr ""
+
+#: progress-map.php:1616
+msgid "Enter an address"
+msgstr ""
+
+#: progress-map.php:1620 progress-map.php:3218 progress-map.php:3223
+#: progress-map.php:7830
+msgid "Search"
+msgstr ""
+
+#: progress-map.php:1639
+msgid "Marker Icon"
+msgstr ""
+
+#: progress-map.php:1641
+msgid "Upload"
+msgstr ""
+
+#: progress-map.php:1644
+msgid ""
+"Upload a custom marker icon for this post. This will override the default "
+"marker icon and the one selected for this post's category in \"Marker "
+"categories settings\"."
+msgstr ""
+
+#: progress-map.php:1661 progress-map.php:3257
+msgid "Latitude"
+msgstr ""
+
+#: progress-map.php:1672 progress-map.php:3262
+msgid "Longitude"
+msgstr ""
+
+#: progress-map.php:1678 progress-map.php:3267
+msgid "Get Pinpoint"
+msgstr ""
+
+#: progress-map.php:1682
+msgid "Mandatory fields"
+msgstr ""
+
+#: progress-map.php:1696 progress-map.php:1713
+msgid "Add more locations"
+msgstr ""
+
+#: progress-map.php:1702
+msgid ""
+"This field allows you to display the same post on multiple places on the "
+"map. \n"
+"\t\t\t\t\t\t\tFor example, let's say that this post is about \"McDonald's\" "
+"and that you want to use it to show your website's visitors all the "
+"locations in your country/city/town...\n"
+"\t\t\t\t\t\t\twhere they can find \"McDonald's\". So, instead of creating - "
+"for instance - 10 posts with the same content but with different "
+"coordinates, this field will allow you to share the same content with all "
+"the different locations that points to \"McDonald's\".<br />\n"
+"\t\t\t\t\t\t\t<br /><strong>How to use it?</strong><br /><br />\n"
+"\t\t\t\t\t\t\t1. Insert the coordinates of one location in the fields "
+"<strong>Latitude</strong> & <strong>Longitude</strong>.\n"
+"\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t2. Enter the coordinates of the remaining locations in the "
+"field <strong>\"Add more locations\"</strong> by dragging the marker on the "
+"map to the exact location or by entering the location's address in the field "
+"<strong>\"Enter an address\"</strong>, then, click on the button <strong>"
+"\"Add more locations\".</strong> <br /><br /> \n"
+"\t\t\t\t\t\t\t<strong>Note:</strong> All the locations will share the same "
+"title, content, link and featured image. Each location represents a new item "
+"on the carousel!"
+msgstr ""
+
+#: progress-map.php:3219
+msgid "Enter an address and search"
+msgstr ""
+
+#: progress-map.php:3287
+msgid "Add Location"
+msgstr ""
+
+#: progress-map.php:4533 progress-map.php:4798 progress-map.php:7056
+msgid "Zoom in"
+msgstr ""
+
+#: progress-map.php:4536 progress-map.php:4801 progress-map.php:7059
+msgid "Zoom out"
+msgstr ""
+
+#: progress-map.php:6225
+msgid ""
+"The map center of the map is incorrect. Please make sure that the Latitude & "
+"the Longitude in \"Map Settings / Map center\" are comma separated!"
+msgstr ""
+
+#: progress-map.php:7073
+msgid "Show your position"
+msgstr ""
+
+#: progress-map.php:7432 progress-map.php:7483
+msgid "Toggle carousel"
+msgstr ""
+
+#: progress-map.php:7721
+msgid "Filter"
+msgstr ""
+
+#: progress-map.php:8367
+msgid ""
+"Display All Points of Interest nearby a location/post on the map with the "
+"NEW extension <a href=\"http://codecanyon.net/item/nearby-places-wordpress-"
+"plugin/15067875?ref=codespacing\" target=\"_blank\">\"Nearby Places\"</a>"
+msgstr ""
+
+#: wp-settings-framework.php:243 wp-settings-framework.php:253
+msgid "Posts"
+msgstr ""
+
+#: wp-settings-framework.php:243
+msgid "Pages"
+msgstr ""

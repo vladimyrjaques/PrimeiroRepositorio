@@ -1,0 +1,120 @@
+* {margin: 0; padding: 0; list-style: none; text-decoration: none; }
+
+#menu-menu-1 {
+    text-transform: uppercase;
+    font-size:10pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img.img-fluid.logo-site {
+    width: 9rem;
+    padding: 10px;
+}
+
+#img-mulheres {
+    background-image: url('../../img/mulheres.png');
+    height: 52vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#img-lado-mulheres {
+    background-image: url('../../img/retangulo.png');
+    height: 52vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-img-section1, .conteudo-img2-section1 {
+    height: 34vw;
+}
+
+.row.conteudo-imgs-pai {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    opacity: 1 !important;
+    transition: 3s;
+}
+
+
+@media (max-width: 992px) {
+    #img-lado-mulheres {
+        background-image: url('../../img/retangulo.png');
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+div#conteudo1-img h4 {
+    margin-top: 8vw;
+}
+div#conteudo2-img {
+    margin-top: 4vw;
+}
+
+div#conteudo3-img {
+    margin-top: 3vw;
+}
+
+.conteudo-img2 {
+    color: #fff;
+    text-align: center;
+}
+
+.conteudo-img2 h4 {
+    font-size: 26pt;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+div#conteudo3-img p {
+    font-size: 17pt;
+}
+
+nav#nav-container {
+    background: #e9e7e7 !important;
+}
+
+.botao-img {
+    background-image: url(../../img/botao1.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-size: contain;
+}
+
+div.botao-img-pai {
+    margin: 0 auto;
+    height: 10vw;
+    width: 17vw;
+}
+
+.delay-0_5 {
+    animation-delay: 0.5s;
+}
+
+.delay-1_5 {
+    animation-delay: 1.5s;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: rgb(169, 54, 68) !important;
+}
+
+
+
+
+nav ul ul ul li {
+    right: 255px !important;
+}
+nav ul ul li {
+    width: 255px !important;
+}

@@ -1,0 +1,51 @@
+#rodape {
+  background-color: #055199;
+  color:#fff;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 2%;
+}
+
+.col-lg-4 #menu_top li a {
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+
+.icones-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+}
+
+.icones-rodape .img-icones-rodape {
+    width: 3rem;
+    padding: 8px;
+}
+
+.seja-franqueado{
+  color: #fff !important;
+  padding: 2% 5%;
+}
+
+@media (max-width: 992px) {
+  .col-lg-4 #menu_top {
+    text-align: center;
+  }
+}
+
+#menu-footer > ul > li > a {
+    color:#fff;
+    text-transform: uppercase;
+}
+
+div#menu-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

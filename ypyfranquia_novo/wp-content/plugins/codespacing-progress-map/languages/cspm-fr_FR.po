@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Progress Map\n"
+"POT-Creation-Date: 2016-03-17 00:23+0000\n"
+"PO-Revision-Date: 2016-03-17 00:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: css\n"
+"X-Poedit-SearchPathExcluded-1: img\n"
+"X-Poedit-SearchPathExcluded-2: js\n"
+"X-Poedit-SearchPathExcluded-3: libs\n"
+"X-Poedit-SearchPathExcluded-4: settings\n"
+
+#: progress-map.php:374
+msgid "More"
+msgstr "Plus"
+
+#: progress-map.php:672
+msgid "Enter City & Province, or Postal code"
+msgstr "Saisissez votre ville et province, ou un code postal"
+
+#: progress-map.php:673
+msgid "Expand the search area up to"
+msgstr "Développez la zone de recherche jusqu'à"
+
+#: progress-map.php:674
+msgid "We could not find any location"
+msgstr "Nous ne pouvions pas trouver aucun emplacement"
+
+#: progress-map.php:675
+msgid "We could not understand the location"
+msgstr "Nous ne pouvions pas comprendre l'emplacement"
+
+#: progress-map.php:676
+msgid "- Make sure all street and city names are spelled correctly."
+msgstr ""
+"- Assurez-vous que tous les noms de rues et de villes sont correctement "
+"orthographiés."
+
+#: progress-map.php:677
+msgid "- Make sure your address includes a city and state."
+msgstr "- Assurez-vous que votre adresse comprend la ville et l'État."
+
+#: progress-map.php:678
+msgid "- Try entering a zip code."
+msgstr "- Essayez d'entrer un code postal."
+
+#: progress-map.php:679
+msgid "Find it"
+msgstr "Trouver"
+
+#: progress-map.php:777
+msgid "Progress map"
+msgstr "Progress map"
+
+#: progress-map.php:841
+msgid "Getting started"
+msgstr "Commencer"
+
+#: progress-map.php:842
+msgid "Documentation"
+msgstr "Documentation"
+
+#: progress-map.php:1153
+msgid "Give Maps permission to use your location!"
+msgstr "Donnez Google Maps la permission d'utiliser votre emplacement!"
+
+#: progress-map.php:1154
+msgid ""
+"If you can't center the map on your location, a couple of things might be "
+"going on. It's possible you denied Google Maps access to your location in "
+"the past, or your browser might have an error."
+msgstr ""
+"Si vous ne pouvez pas centrer la carte sur votre emplacement, deux choses "
+"pourrait se passer. Il est possible que vous avez refusé l'accès Google Maps "
+"à votre emplacement dans le passé, ou votre navigateur pourrait avoir une "
+"erreur."
+
+#: progress-map.php:1160
+msgid "Click to view all markers in this area"
+msgstr "Cliquez ici pour voir tous les marqueurs dans cette zone"
+
+#: progress-map.php:1508
+msgid "PM. Coordinates"
+msgstr "PM. Coordonnées"
+
+#: progress-map.php:1544 progress-map.php:1558
+msgid "Progress Map: Add Locations"
+msgstr "Progress Map: Ajouter Emplacements"
+
+#: progress-map.php:1601
+msgid "Enter an address"
+msgstr "Entrer une adresse"
+
+#: progress-map.php:1605 progress-map.php:3188 progress-map.php:3193
+#: progress-map.php:7786
+msgid "Search"
+msgstr "Chercher"
+
+#: progress-map.php:1624
+msgid "Marker Icon"
+msgstr "Icône du marqueur"
+
+#: progress-map.php:1626
+msgid "Upload"
+msgstr "Télécharger"
+
+#: progress-map.php:1629
+msgid ""
+"Upload a custom marker icon for this post. This will override the default "
+"marker icon and the one selected for this post's category in \"Marker "
+"categories settings\"."
+msgstr ""
+"Ajouter une icône de marqueur personnalisé pour ce poste. Cela remplacera "
+"l'icône de marqueur par défaut et celle sélectionnée pour la catégorie de ce "
+"poste dans \"Marker categories settings\"."
+
+#: progress-map.php:1646 progress-map.php:3227
+msgid "Latitude"
+msgstr "Latitude"
+
+#: progress-map.php:1657 progress-map.php:3232
+msgid "Longitude"
+msgstr "Longitude"
+
+#: progress-map.php:1663 progress-map.php:3237
+msgid "Get Pinpoint"
+msgstr "Obtenez l'emplacement"
+
+#: progress-map.php:1667
+msgid "Mandatory fields"
+msgstr "Champs obligatoires"
+
+#: progress-map.php:1681 progress-map.php:1698
+msgid "Add more locations"
+msgstr "Ajouter plus d'endroits"
+
+#: progress-map.php:1687
+msgid ""
+"This field allows you to display the same post on multiple places on the "
+"map. \n"
+"\t\t\t\t\t\t\tFor example, let's say that this post is about \"McDonald's\" "
+"and that you want to use it to show your website's visitors all the "
+"locations in your country/city/town...\n"
+"\t\t\t\t\t\t\twhere they can find \"McDonald's\". So, instead of creating - "
+"for instance - 10 posts with the same content but with different "
+"coordinates, this field will allow you to share the same content with all "
+"the different locations that points to \"McDonald's\".<br />\n"
+"\t\t\t\t\t\t\t<br /><strong>How to use it?</strong><br /><br />\n"
+"\t\t\t\t\t\t\t1. Insert the coordinates of one location in the fields "
+"<strong>Latitude</strong> & <strong>Longitude</strong>.\n"
+"\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t2. Enter the coordinates of the remaining locations in the "
+"field <strong>\"Add more locations\"</strong> by dragging the marker on the "
+"map to the exact location or by entering the location's address in the field "
+"<strong>\"Enter an address\"</strong>, then, click on the button <strong>"
+"\"Add more locations\".</strong> <br /><br /> \n"
+"\t\t\t\t\t\t\t<strong>Note:</strong> All the locations will share the same "
+"title, content, link and featured image. Each location represents a new item "
+"on the carousel!"
+msgstr ""
+"Ce champ vous permet d'afficher le même poste sur plusieurs endroits sur la "
+"carte.\n"
+"\t\t\t\t\t\t\tPar exemple, disons que ce poste est sur «McDonald» et que "
+"vous voulez l'utiliser pour montrer aux visiteurs de votre site web tous les "
+"endroits dans votre pays / ville / commune ...\n"
+"\t\t\t\t\t\t\toù ils peuvent trouver \"McDonald\". Donc, au lieu de créer - "
+"par exemple - 10 postes avec le même contenu, mais avec des coordonnées "
+"différentes, ce domaine vous permettra de partager le même contenu avec tous "
+"les différents endroits qui pointe vers \"McDonald\". <br />\n"
+"\t\t\t\t\t\t\t<br /> <strong> Comment l'utiliser? </strong> <br /> <br />\n"
+"\t\t\t\t\t\t\t1. Insérez les coordonnées d'un emplacement dans les champs "
+"<strong> Latitude </strong> & <strong> Longitude </strong>.\n"
+"\t\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t\t2. Entrez les coordonnées des emplacements restants dans le "
+"champ <strong> \"Ajouter plus d'endroits\" </strong> en faisant glisser le "
+"marqueur sur la carte à  l'endroit exact ou en entrant l'adresse de "
+"l'emplacement dans le champ <strong> \"Entrez une adresse \"</strong>, puis, "
+"cliquez sur le bouton <strong>\"Ajouter plus d'endroits\". </strong> <br /> "
+"<br />\n"
+"\t\t\t\t\t\t\t<strong>Remarque: </strong> Tous les emplacements partageront "
+"le même titre, le contenu, le lien et l'image sélectionnée. Chaque "
+"emplacement représente un nouvel élément sur le carrousel!"
+
+#: progress-map.php:3189
+msgid "Enter an address and search"
+msgstr "Entrez une adresse et recherche"
+
+#: progress-map.php:3257
+msgid "Add Location"
+msgstr "Ajouter un emplacement"
+
+#: progress-map.php:7012
+msgid "Zoom in"
+msgstr "Zoom avant"
+
+#: progress-map.php:7015
+msgid "Zoom out"
+msgstr "Zoom arrière"
+
+#: progress-map.php:7029
+msgid "Show your position"
+msgstr "Montrez votre position"
+
+#: progress-map.php:7677
+msgid "Filter"
+msgstr "Filtrer"
+
+#: wp-settings-framework.php:243 wp-settings-framework.php:253
+msgid "Posts"
+msgstr "Articles"
+
+#: wp-settings-framework.php:243
+msgid "Pages"
+msgstr "Pages"
+
+#~ msgid "Get start"
+#~ msgstr "Commencer"

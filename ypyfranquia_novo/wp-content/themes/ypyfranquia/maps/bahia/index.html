@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <style>
+        div#localizacao {
+            display: flex;
+            padding: 15px 7rem;
+            background: #00509e;
+            color: #fff;
+            margin-top: 7rem;
+            justify-content: center;
+        }
+
+        div#dados-localizacao {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            background-color: #f3f4f7;
+            position: relative;
+            left: 5rem;
+            padding: 15px 23px;
+            bottom: 12rem;
+            width: 34vw;
+            height: auto;
+        }
+
+        div#img-mapa {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        div#localizacao h3 {
+            font-size: 35pt;
+            margin-left: 40vw;
+        }
+
+        .localizacao span {
+            margin-left: 15px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<div id="img-mapa">
+    <img src="bahia.png" usemap="#image-map">
+    <map name="image-map">
+        <area target="" alt="Estado 01" title="Estado 01" onclick="change_pin('estado01')" href="#!" coords="361,393,407,470" shape="rect" id="main">
+        <area target="" alt="Estado 02" title="Estado 02" onclick="change_pin('estado02')" href="#!" coords="519,250,562,328" shape="rect">
+    </map>
+</div>
+
+<div id="info">
+</div>
+
+
+<div id="localizacao">
+    <h3>YPY Salvador 01</h3>
+</div>
+
+<div id="dados-localizacao">
+
+    <div class="localizacao">
+        <i class="fas fa-map-marker-alt"></i>
+        <span class="informations">  Rua Clovis Spinola, n° 40, Loja, Bloco A.Ed.Orixás Center,  politeama, Salvador / BA <br>
+        Ponto de Referência: No centro comercial Orixás Center <br>  CEP: 40080-241 </span>
+
+    </div>
+
+    <br>
+
+    <div class="contato">
+        <i class="fas fa-phone"></i>
+        <span class="informations"> (71)3329-6518 | (71) 3498-1550 | (71) 98870-6051 | (71)99122-2549  </span>
+
+    </div>
+
+    <br>
+    <div class="contato-email">
+        <i class="fas fa-envelope"></i>
+        <span class="informations"> camila.salvador@franqueadoypy.com.br <br> rafael.salvador@franqueadoypy.com.br </span>
+    </div>
+
+</div>
+
+<script>
+    $('#main').click();
+
+
+
+
+    // function change_pin(data) {
+    //     switch (data) {
+    //         case 'estado01':
+    //             $('#info').empty();
+    //             html = '<h1>Endereço: Rua Raimunda Lopes da Cunha<h1>'
+    //             $('#info').append(html)
+    //             break;
+    //         case 'estado02':
+    //             $('#info').empty();
+    //             html = '<h1>Endereço: Rua Leandro Martins </h1>'
+    //             $('#info').append(html)
+    //             break;
+    //         default:
+    //             console.log(`Sorry, we are out of ${expr}.`);
+    //     }
+    // }
+
+</script>
+
+</body>
+</html>

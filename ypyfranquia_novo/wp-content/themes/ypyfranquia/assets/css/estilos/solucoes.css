@@ -1,0 +1,84 @@
+#outdor_solucoes {
+    background-image: url('../../img/outdor_solucoes.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: 47rem;
+    width: 100%;
+}
+
+@media (max-width: 592px) {
+    #outdor_solucoes {
+        background-image: url(../../img/outdor_solucoes.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center;
+        height: 30rem;
+        width: 100%;
+    }
+    div#col-2 {
+        height: 20rem !important;
+    }
+}
+
+#col-1 h4 {
+    color: #a93644;
+    font-size: 16pt;
+}
+
+img.img-fluid.img-solucoes {
+    width: 100px;
+    height: auto;
+}
+
+div#border {
+    border-right: solid 1px #b9bbbd;
+}
+
+section#section3-solucao {
+    background: #e8e6e6;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+div#titulto-destaque {
+    background-color: #055199;
+    color: #fff;
+    padding: 5px 15px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+img.img-fluid.img-solucoes2 {
+    width: 70px;
+    padding: 16px;
+}
+
+span.text-img {
+    font-weight: bold;
+    letter-spacing: .7px;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.container.text-desc {
+    color: #000;
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.paginacao {
+    text-align: center;
+    margin-top: 3rem;
+    color: #a93644;
+    font-size: 16pt;
+}
+
+.botao-imgs3 {
+    background-image: url(../../img/botao1.png);
+    height: 4vw;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    width: 13vw;
+}
