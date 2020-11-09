@@ -16,7 +16,7 @@ $query = new WP_Query( $args );
         <div class="row shadow">
             <div class="col-md-12 relative_box">
             <div class="target init" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/img/dualring2.gif')"></div>
-                <h3 class="title2"> Solicite uma Simulação </h3>
+                <h3 class="title2 teste-git"> Solicite uma Simulação </h3>
                 <p>Entraremos em contato com você com as melhores ofertas para a sua necesidade </p>
                 <div class="col-md-6" id="select">
                     <select autofocus name="option" class="form-control" id="option_solucao" onchange="changeForm()">
